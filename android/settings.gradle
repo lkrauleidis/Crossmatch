@@ -1,0 +1,6 @@
+rootProject.name = 'crossmatch'
+
+include ':app', ':firebase-client-android-2.3.0'
+
+include ':react-native-icons'
+project(':react-native-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-icons/android')
